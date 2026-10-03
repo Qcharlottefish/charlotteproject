@@ -1,0 +1,538 @@
+body{ background-image: url("image/bannerpic.jpg"); 
+    background-size: cover; 
+    background-position: center;
+     background-repeat: no-repeat; 
+     background-attachment: fixed;
+     margin: 0; 
+      min-height: 100vh; }
+
+nav{ position: fixed; top: 0; left: 0; width: 100%;
+    background-color: white;
+    padding: 15px 0; z-index: 1000;
+   } 
+nav ul { list-style-type: none;
+     margin: 0; padding: 0;
+      display: flex; 
+      justify-content: center;
+       gap: 40px; } 
+       
+nav li { display: inline; } 
+
+nav a { text-decoration: none;
+     color: black;
+      font-size: 20px; 
+      font-weight: bold; }
+      
+nav a:hover { color: gray; }
+
+/* PAGE 1 */
+
+.page1 { text-align: center; width: 80%; margin: 100px auto 0; }
+
+.page1 h1 { font-size: xx-large; margin-bottom: 10px; }
+
+.page1 > p { font-size: 20px; margin-top: 0; }
+
+.page1 img { width: 700px; max-width: 100%; height: auto; }
+
+.page1 h2 { font-size: xx-large; margin-top: 20px; margin-bottom: 10px; }
+
+.paragraph-box { background-color: rgb(231, 224, 224); width: 50%; padding: 15px;margin: 10px auto;border-radius: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.paragraph-box p { font-size: 16px; margin: 0; text-align: center;
+ 
+}
+
+/* PAGE 2 */
+
+.page2 { width: 85%; margin: 100px auto 50px; text-align: center;
+
+}
+
+.page2 h1 { font-size: xx-large; margin-bottom: 10px;
+
+}
+
+.definition { font-size: 24px; line-height: 1.5; 
+
+}
+
+.page2 h2 { font-size: xx-large; margin-top: 40px; 
+
+}
+
+.device-list { text-align: left; font-size: 28px; }
+
+.device-list > li { margin-bottom: 40px; }
+
+.device-info { text-align: center; margin-top: 15px; }
+
+.device-info ul { width: fit-content; margin: 10px auto; text-align: left; font-size: 20px; }
+
+.device-info img { width: 300px; height: 220px; object-fit: contain; display: block; margin: 20px auto; }
+
+.page2 > ol { width: 80%; margin: 20px auto; text-align: left; font-size: 22px; }
+
+.page2 > ol > li { margin-bottom: 25px; }
+
+.page2 > ol ul { margin-top: 8px; }
+
+.page2 table { width: 90%; margin: 30px auto; border-collapse: collapse; background-color: white; } .page2 th, .page2 td { border: 1px solid black; padding: 15px; text-align: left; font-size: 18px; }
+
+/* PAGE 3 */
+
+.page3{width: 85%; margin: 100px auto 50px; text-align: center;
+
+}
+
+.page3{font-size:large; margin-bottom: 10px;
+
+}
+
+.infographic {
+    width: 90%;
+    margin: 30px auto 50px;
+    text-align: center;
+}
+
+.info-title {
+    display: inline-block;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 15px;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info-arrow {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.info-sections {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.info-card {
+    width: 30%;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: white;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info-card h2 {
+    font-size: 25px;
+}
+
+.info-card p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*PAGE 4*/
+
+.page4 {
+    width: 80%;
+    margin: 150px auto 50px;
+    text-align: center;
+}
+
+.page4 h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.learning-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.learning-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.learning-box h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.learning-box p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.resources {
+    width: 95%;
+    margin: 60px auto 0;
+}
+
+.resources h2 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.resources table {
+    width: 200%;
+    margin: 0;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.resources th,
+.resources td {
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.resources th {
+    font-size: 20px;
+    background-color: #e5e7e5;
+}
+
+.resources td:first-child {
+    font-weight: bold;
+}
+
+.resources a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resources a:hover {
+    color: rgb(47, 40, 255);
+    text-decoration: underline;
+}
+
+/*PAGE 5*/
+
+.career-infographic {
+    width: 90%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+
+.career-title {
+    display: inline-block;
+
+    background-color: white;
+
+    padding: 20px 50px;
+
+    border-radius: 15px;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.career-arrow {
+    font-size: 40px;
+    font-weight: bold;
+
+    margin: 10px;
+}
+
+
+.career-subtitle {
+    display: inline-block;
+
+    background-color: white;
+
+    padding: 15px 70px;
+
+    border-radius: 15px;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.career-cards {
+    display: flex;
+    justify-content: center;
+
+    gap: 25px;
+
+    margin-top: 30px;
+}
+
+
+.career-card {
+    width: 30%;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.career-card h2 {
+    font-size: 24px;
+}
+
+
+.career-card p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.certifications {
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.certifications h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.certifications table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.certifications th,
+.certifications td {
+    border: 1px solid black;
+    padding: 18px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.certifications th {
+    background-color: #e5e7e5;
+    font-size: 20px;
+}
+
+.certifications td:first-child {
+    width: 25%;
+}
+
+.certifications td:nth-child(2) {
+    width: 45%;
+}
+
+.certifications td:nth-child(3) {
+    width: 30%;
+}
+
+
+.learning-form {
+    width: 60%;
+    margin: 60px auto;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    text-align: left;
+}
+
+.learning-form h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.learning-form label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.learning-form input[type="text"],
+.learning-form input[type="email"],
+.learning-form select,
+.learning-form textarea {
+    width: 100%;
+    padding: 12px;
+
+    font-size: 16px;
+
+    border: 1px solid gray;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+}
+
+.radio-group label {
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+.radio-group input {
+    margin-right: 8px;
+}
+
+.learning-form button {
+    display: block;
+
+    margin: 25px auto 0;
+
+    padding: 12px 30px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    background-color: #e5e7e5;
+
+    border: 1px solid black;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.learning-form button:hover {
+    background-color: #d0efd0;
+}
+
+.learning-form {
+    width: 60%;
+    margin: 60px auto;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    text-align: left;
+}
+
+.learning-form h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.learning-form label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.learning-form input[type="text"],
+.learning-form input[type="email"],
+.learning-form select,
+.learning-form textarea {
+    width: 100%;
+    padding: 12px;
+
+    font-size: 16px;
+
+    border: 1px solid gray;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+}
+
+.radio-group label {
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+.radio-group input {
+    margin-right: 8px;
+}
+
+.learning-form button {
+    display: block;
+
+    margin: 25px auto 0;
+
+    padding: 12px 30px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    background-color: #e5e7e5;
+
+    border: 1px solid black;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.learning-form button:hover {
+    background-color: #8e8e8e;
+}
+
+.student-table {
+    width: 90%;
+    margin: 150px auto 60px;
+    text-align: center;
+}
+
+.student-table h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.student-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.student-table th,
+.student-table td {
+    border: 1px solid black;
+    padding: 18px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.student-table th {
+    background-color: #e5e7e5;
+    font-size: 20px;
+}
+
+.student-table a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.student-table a:hover {
+    color: blue;
+    text-decoration: underline;
+}
